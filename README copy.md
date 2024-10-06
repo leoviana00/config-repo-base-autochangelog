@@ -12,7 +12,8 @@ Tópicos levados em consideração:
 
 ## Commits Semânticos
 
-Em relação aos commits semânticos, será seguido a convenção de commits.
+Em relação aos commits semânticos, seguiremos as diretrizes ja definidas utilizando como uma base padrão o Gitflow, para maior detalhamento, segue abaixo link da documentação e fluxo que norteia esse seguimento.
+
 [Link Documentação](link)
 
 > Importante lembrar:
@@ -61,12 +62,13 @@ Proposta de template:
 
 ## Emitir número e link do ticket
 
-- [ ] Não possui relação com Issues 
-- [ ] Pull Request será vinculado a uma issue usando palavra chave [Pull request vinculado a uma issue]
-
-<!--
-## Em casos de viculação do pr a uma issue, utilizar essa area para fechamento.
--->
+- [ ] Não possui relação com Issues nem projetos
+- [ ] PR possui relação com uma task de um Projeto [00000](https://dev.azure.com/gmservice/GMS-PLAT4M/_backlogs/backlog/GMS-SQUAD-DEVOPS/Epics)
+- [ ] PR possui relação com uma task de um de uma Fetaure de manutenção/melhoria [00000](https://dev.azure.com/gmservice/GMS-PLAT4M/_backlogs/backlog/GMS-SQUAD-DEVOPS/Epics)
+- [ ] PR possui relação com um ticket [DIT-00000](https://grupomateus.atlassian.net/jira/servicedesk/projects/DIT/queues/custom/1126)
+- [ ] PR possui relação com sobreaviso [DIT-00000](https://grupomateus.atlassian.net/jira/servicedesk/projects/DIT/queues/custom/1126)
+- [ ] PR possui relação com uma GMUD [DIT-00000](https://grupomateus.atlassian.net/jira/servicedesk/projects/DIT/queues/custom/1126)
+- [ ] Outro (especifique)
 
 ## Screenshots
 
