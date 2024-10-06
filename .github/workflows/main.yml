@@ -1,4 +1,5 @@
 name: Generate changelog
+
 on:
   release:
     types: [created, edited]
@@ -6,9 +7,13 @@ on:
     branches: [main]
 jobs:
   run_tests:
+    permissions: write-all
     runs-on: ubuntu-20.04
+
     steps:
+
     - uses: actions/checkout@v2
+    
     - name: Clone repository
       run: |
         git clone https://github.com/leoviana00/config-repo-base-autochangelog.git
