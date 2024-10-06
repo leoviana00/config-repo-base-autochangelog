@@ -13,7 +13,6 @@ jobs:
     - name: Clone repository
       run: |
         git clone https://github.com/leoviana00/config-repo-base-autochangelog.git
-        cd config-repo-base-autochangelog
         ls -la
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
