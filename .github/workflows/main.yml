@@ -1,7 +1,7 @@
 name: Generate changelog
 on:
   pull_request_target:
-    types: [created, edited]
+    types: [ edited, synchronize, opened, reopened ]
 
 jobs:
   generate-changelog:
