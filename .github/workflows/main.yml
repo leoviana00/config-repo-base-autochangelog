@@ -19,6 +19,11 @@ jobs:
         git clone https://github.com/leoviana00/config-repo-base-autochangelog.git
         git config user.name "CI Pipeline"
         git config user.email "cipipeline@example.com" 
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Run script file
+      run: |
         chmod +x changelog.sh
         ./changelog.sh
       env:
@@ -30,6 +35,7 @@ jobs:
         cat <<EOT > message.txt
         Olá! Changelog atualizado com sucesso 🥳🚀
         EOT
+
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
