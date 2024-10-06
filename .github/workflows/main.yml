@@ -35,9 +35,6 @@ jobs:
         cat <<EOT > message.txt
         Olá! Changelog atualizado com sucesso 🥳🚀
         EOT
-
-        gh pr comment ${{ github.event.pull_request.number }} --body-file=message.txt
-        gh pr edit ${{ github.event.pull_request.number }} --add-label "documentation"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -52,7 +49,5 @@ jobs:
 
         Agradecemos sua contribuição e compreensão 👊😉
         EOT
-
-        gh pr comment ${{ github.event.pull_request.number }} --body-file=message.txt
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
