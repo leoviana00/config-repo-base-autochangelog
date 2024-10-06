@@ -1,5 +1,10 @@
 #!/bin/bash
 
+git clone https://github.com/leoviana00/config-repo-base-autochangelog.git
+git config user.name "CI Pipeline"
+git config user.email "cipipeline@example.com" 
+cd config-repo-base-autochangelog
+
 version=$(cat version.json | grep version | grep -Eo "[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+")
 
 for THIS_TAG in "$version"; do
