@@ -11,8 +11,8 @@ else
     echo "Tag $version não exite. Criando tag e adicionando notas de alterações no CHANGELOG.md ..."
     # cd config-repo-base-autochangelog
     git tag "$version"
-    # git push  --tags 
-    # git tag -l
+    git tag -l
+    git push  --tags 
     # ls -la
     # chmod +x note-releases.sh
     # ./note-releases.sh > CHANGELOG.md
