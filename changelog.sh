@@ -8,6 +8,8 @@ for THIS_TAG in "$version"; do
 
     if [ $(git tag -l "$THIS_TAG ") ]; then
         echo "Tag $THIS_TAG já existe. Adicionando alterações no CHANGELOG.md ..."
+        echo "Comando tag -l abaixo"
+        git tag -l
         # chmod +x note-releases.sh
         # ./note-releases.sh > CHANGELOG.md
         # git add CHANGELOG.md 
