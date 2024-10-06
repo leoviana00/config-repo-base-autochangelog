@@ -12,7 +12,6 @@ jobs:
     - name: Run script file
       run: |
         git clone https://github.com/leoviana00/config-repo-base-autochangelog.git
-        git remote add origin https://github.com/leoviana00/config-repo-base-autochangelog.git
         cd config-repo-base-autochangelog
         ls -la
         chmod +x changelog.sh
