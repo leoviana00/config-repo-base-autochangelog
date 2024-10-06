@@ -9,16 +9,15 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
-
     - name: Clone repository
       run: |
         git clone https://github.com/leoviana00/config-repo-base-autochangelog.git
-        ls -la
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Run script file
       run: |
-        ls -la
+        chmod +x changelog.sh
+        ./changelog.sh
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
