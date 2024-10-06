@@ -10,8 +10,6 @@ if [ $(git tag -l "$version") ]; then
 else
     echo "Tag $version não exite. Criando tag e adicionando notas de alterações no CHANGELOG.md ..."
     # cd config-repo-base-autochangelog
-    git config user.name "CI Pipeline"
-    git config user.email "cipipeline@example.com" 
     git tag "$version"
     git tag -l
     git push  --tags 
