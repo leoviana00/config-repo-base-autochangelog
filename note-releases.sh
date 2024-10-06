@@ -11,10 +11,10 @@ git tag --sort=-creatordate | while read TAG ; do
         echo "## Current"
     fi  
     echo "## Merges"
-    GIT_PAGER=cat git log ${TAG}...${NEXT} --merges --pretty=format:'*  %s [View](https://gitlab.com/leoviana00/lb-project-autochangelog/-/commits/%H)' 
+    GIT_PAGER=cat git log ${TAG}...${NEXT} --merges --pretty=format:'*  %s [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/%H)' 
     echo 
     echo "## Commits"
-    GIT_PAGER=cat git log ${TAG}...${NEXT} --pretty=format:'*  %s [View](https://gitlab.com/leoviana00/lb-project-autochangelog/-/commits/%H)' --reverse | grep -v Merge
+    GIT_PAGER=cat git log ${TAG}...${NEXT} --pretty=format:'*  %s [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/%H)' --reverse | grep -v Merge
     NEXT=$TAG
     printf "\n\n"
 done
@@ -23,10 +23,10 @@ tag_date=$(git log -1 --pretty=format:'%ad' --date=short ${FIRST})
 echo
 echo "# $FIRST - ($tag_date)"
 echo "## Merges"
-GIT_PAGER=cat git log ${FIRST} --merges --pretty=format:'*  %s [View](https://gitlab.com/leoviana00/lb-project-autochangelog/-/commits/%H)' 
+GIT_PAGER=cat git log ${FIRST} --merges --pretty=format:'*  %s [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/%H)' 
 echo 
 echo "## Commits"
-GIT_PAGER=cat git log ${FIRST} --pretty=format:'*  %s [View](https://gitlab.com/leoviana00/lb-project-autochangelog/-/commits/%H)' --reverse | grep -v Merge
+GIT_PAGER=cat git log ${FIRST} --pretty=format:'*  %s [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/%H)' --reverse | grep -v Merge
 
 #METADATA
 
