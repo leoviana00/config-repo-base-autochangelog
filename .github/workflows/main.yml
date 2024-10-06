@@ -1,6 +1,6 @@
 name: Generate changelog
 on:
-  release:
+  pull_request_target:
     types: [created, edited]
 
 jobs:
