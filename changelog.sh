@@ -6,7 +6,7 @@ if [ $(git tag -l "$version") ]; then
     echo "Tag $version já existe. Adicionando alterações no CHANGELOG.md ..."
     chmod +x note-releases.sh
     ./note-releases.sh > CHANGELOG.md
-    git add RELEASE_NOTES.md 
+    git add CHANGELOG.md 
     git commit -m "docs(CHANGELOG): update release notes"
     git push origin HEAD:main
 else
@@ -17,7 +17,7 @@ else
     git push  --tags 
     chmod +x note-releases.sh
     ./note-releases.sh > CHANGELOG.md
-    git add RELEASE_NOTES.md 
+    git add CHANGELOG.md 
     git commit -m "docs(CHANGELOG): update release notes"
     git push origin HEAD:main
 fi
