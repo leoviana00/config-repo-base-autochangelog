@@ -40,7 +40,7 @@ jobs:
         gh pr comment ${{ github.event.pull_request.number }} --body-file=message.txt
         gh pr edit ${{ github.event.pull_request.number }} --add-label "documentation"
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Comment Changelog on Failure
       if: failure()
@@ -57,4 +57,4 @@ jobs:
 
         gh pr comment ${{ github.event.pull_request.number }} --body-file=message.txt
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
