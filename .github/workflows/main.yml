@@ -13,3 +13,5 @@ jobs:
       run: |
          chmod +x changelog.sh
          ./changelog.sh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
