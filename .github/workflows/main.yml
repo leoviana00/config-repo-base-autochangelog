@@ -32,29 +32,22 @@ jobs:
     - name: Comment Changelog on Success and Add Label 
       if: success()
       run: |
-        AUTHOR_NAME=${{ github.event.pull_request.user.login }}
         cat <<EOT > message.txt
-        Olá $AUTHOR_NAME ! Changelog atualizado com sucesso 🥳🚀
+        Olá! Changelog atualizado com sucesso 🥳🚀
         EOT
-
-        gh pr comment ${{ github.event.pull_request.number }} --body-file=message.txt
-        gh pr edit ${{ github.event.pull_request.number }} --add-label "documentation"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Comment Changelog on Failure
       if: failure()
       run: |
-        AUTHOR_NAME=${{ github.event.pull_request.user.login }}
         cat <<EOT > message.txt
-        Olá $AUTHOR_NAME ! 🚫 Parece que houve um problema a atualização do changelog 🧐 Aqui estão algumas coisas para verificar:
+        Olá! 🚫 Parece que houve um problema a atualização do changelog 🧐 Aqui estão algumas coisas para verificar:
 
         - Verificar token de acesso.
         - Checar se não hove nenhuma mudança nas configurações nos útimos dias.
 
         Agradecemos sua contribuição e compreensão 👊😉
         EOT
-
-        gh pr comment ${{ github.event.pull_request.number }} --body-file=message.txt
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
