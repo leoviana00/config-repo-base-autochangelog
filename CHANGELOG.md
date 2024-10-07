@@ -2,6 +2,14 @@
 
 ## Current
 ## Merges
+
+## Commits
+
+
+
+## 2.0.0 - (2024-10-07)
+## Merges
+*  Merge pull request #95 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/15c1ce0f5cbe4d698fb7eac1531c46a8a6d42224)
 *  Merge pull request #94 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/4897258276cd24d189848e7c8a023ba6f2610d6e)
 *  Merge pull request #93 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/72f20707bafffd1d88e684cc8162fd3808d3e79e)
 *  Merge pull request #92 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/07496e8098ad00973dc08f52bb4d4bd399653e35)
@@ -39,6 +47,8 @@
 *  docs: update readme - versionamento semantico [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/3d6bb2d327764c7c22e2c57fa0c15c5bf6127cf4)
 *  docs(CHANGELOG): update release notes [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/bfecb655f918b4f40371eb94cb86774961f6d65d)
 *  docs: codigo de conduta e guia do contribuidor [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/97ee8062ebfb7c81b89ad065d0d4bc33504b1f5c)
+*  docs(CHANGELOG): update release notes [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/e0cd5243eba7ed44de6e567ab083af6d289aa0c8)
+*  feat: finalizado configuracao repo base [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/c73c033c3ee5b46842cd540ede21b9b680edf7a1)
 
 
 
@@ -247,10 +257,11 @@
 *  feat: permissionando a pipeline [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/b90d6905e4974e2d74c392fca3211e901f49ba83)
 ## 📝 Metadata
 ```
-This version -------- 1.0.0
+This version -------- 2.0.0
+1.0.0
 0.0.2
 0.0.1
 0.0.0
-Previous version ---- 0.0.2
-Total commits ------- 103
+Previous version ---- 1.0.0
+Total commits ------- 142
 ```
