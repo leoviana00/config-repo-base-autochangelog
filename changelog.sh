@@ -1,10 +1,5 @@
 #!/bin/bash
 
-GITHUB_REPOSITORY="$GITHUB_REPOSITORY"
-
-echo "Testando variável $GITHUB_REPOSITORY"
-echo $GITHUB_REPOSITORY
-
 # FUNÇÃO PARA CHECAR SE TAG JA EXISTE OU NÃO
 function main(){
 
@@ -42,7 +37,7 @@ git tag --sort=-creatordate | while read TAG ; do
     GIT_PAGER=cat git log ${TAG}...${NEXT} --merges --pretty=format:"*  %s [View](https://github.com/$GITHUB_REPOSITORY/commits/%H)"
     echo 
     echo "## Commits"
-    GIT_PAGER=cat git log ${TAG}...${NEXT} --pretty=format:'*  %s [View](https://github.com/$GITHUB_REPOSITORY/commits/%H)' --reverse | grep -v Merge
+    GIT_PAGER=cat git log ${TAG}...${NEXT} --pretty=format:"*  %s [View](https://github.com/$GITHUB_REPOSITORY/commits/%H)" --reverse | grep -v Merge
     NEXT=$TAG
     printf "\n\n"
 done
@@ -51,10 +46,10 @@ tag_date=$(git log -1 --pretty=format:'%ad' --date=short ${FIRST})
 echo
 echo "# $FIRST - ($tag_date)"
 echo "## Merges"
-GIT_PAGER=cat git log ${FIRST} --merges --pretty=format:'*  %s [View](https://github.com/$GITHUB_REPOSITORY/commits/%H)' 
+GIT_PAGER=cat git log ${FIRST} --merges --pretty=format:"*  %s [View](https://github.com/$GITHUB_REPOSITORY/commits/%H)"
 echo 
 echo "## Commits"
-GIT_PAGER=cat git log ${FIRST} --pretty=format:'*  %s [View](https://github.com/$GITHUB_REPOSITORY/commits/%H)' --reverse | grep -v Merge
+GIT_PAGER=cat git log ${FIRST} --pretty=format:"*  %s [View](https://github.com/$GITHUB_REPOSITORY/commits/%H)" --reverse | grep -v Merge
 
 
 metadata
