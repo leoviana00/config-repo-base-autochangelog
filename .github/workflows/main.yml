@@ -16,14 +16,14 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Check for Tag
-      run: |
-        TAG="0.0.1"
-        if [ $(git tag -l "${TAG}") ]; then
-          echo "Tag ${TAG} exists"
-        else
-          echo "Tag ${TAG} does not exist"
-        fi
+    # - name: Check for Tag
+    #   run: |
+    #     TAG="0.0.1"
+    #     if [ $(git tag -l "${TAG}") ]; then
+    #       echo "Tag ${TAG} exists"
+    #     else
+    #       echo "Tag ${TAG} does not exist"
+    #     fi
 
     
     # - name: Clone repository
@@ -34,12 +34,12 @@ jobs:
     #   env:
     #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    # - name: Run script file
-    #   run: |
-    #     chmod +x changelog.sh
-    #     ./changelog.sh
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Run script file
+      run: |
+        chmod +x changelog.sh
+        ./changelog.sh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Comment Changelog on Success and Add Label 
       if: success()
