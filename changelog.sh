@@ -1,21 +1,26 @@
 #!/bin/bash
 
-# Get the tag name from user input
-# tag_name=$(cat version.json | grep version | grep -Eo "[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+")
-tag_name=0.0.1
+version=$(cat version.json | grep version | grep -Eo "[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+")
 
-# Verify that the tag exists
-tag_exists=$(git tag -l "$tag_name")
+for THIS_TAG in "$version"; do
 
-if [ -z "$tag_exists" ]; then
-  echo "Tag $tag_name does not exist!"
-  exit 1
-fi
+    git tag -l "$THIS_TAG" | tac
 
-# Force update the tag
-git tag -f "$tag_name"
-
-# Push the tag to the remote repository
-git push -f origin "$tag_name"
-
-echo "Tag $tag_name has been force updated!"
+    if [ $(git tag -l "$THIS_TAG") ]; then
+        echo "Tag $THIS_TAG já existe. Adicionando alterações no CHANGELOG.md ..."
+        chmod +x note-releases.sh
+        ./note-releases.sh > CHANGELOG.md
+        git add CHANGELOG.md 
+        git commit -m "docs(CHANGELOG): update release notes"
+        git push origin HEAD:main
+    else
+        echo "Tag $THIS_TAG não existe. Criando tag e adicionando notas de alterações no CHANGELOG.md ..."
+        git tag "$THIS_TAG"
+        git push  --tags https://github.com/leoviana00/config-repo-base-autochangelog.git HEAD:main
+        chmod +x note-releases.sh
+        ./note-releases.sh > CHANGELOG.md
+        git add CHANGELOG.md 
+        git commit -m "docs(CHANGELOG): update release notes"
+        git push origin HEAD:main
+    fi
+done
