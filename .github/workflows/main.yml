@@ -8,7 +8,7 @@ on:
 jobs:
   run_tests:
     permissions: write-all
-    runs-on: node:latest
+    runs-on: Ubuntu 24.04
 
     steps:
 
