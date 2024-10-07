@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GITHUB_REPOSITOR="$GITHUB_REPOSITORY"
+GITHUB_REPOSITORY="$GITHUB_REPOSITORY"
 
 echo "Testando variável $GITHUB_REPOSITORY"
 echo $GITHUB_REPOSITORY
@@ -39,7 +39,7 @@ git tag --sort=-creatordate | while read TAG ; do
         echo "## Current"
     fi  
     echo "## Merges"
-    GIT_PAGER=cat git log ${TAG}...${NEXT} --merges --pretty=format:'*  %s [View](https://github.com/$GITHUB_REPOSITORY/commits/%H)' 
+    GIT_PAGER=cat git log ${TAG}...${NEXT} --merges --pretty=format:"*  %s [View](https://github.com/$GITHUB_REPOSITORY/commits/%H)"
     echo 
     echo "## Commits"
     GIT_PAGER=cat git log ${TAG}...${NEXT} --pretty=format:'*  %s [View](https://github.com/$GITHUB_REPOSITORY/commits/%H)' --reverse | grep -v Merge
