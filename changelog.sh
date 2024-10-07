@@ -1,5 +1,8 @@
 #!/bin/bash
 
+git config user.name "CI Pipeline"
+git config user.email "cipipeline@example.com" 
+
 version=$(cat version.json | grep version | grep -Eo "[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+")
 
 for THIS_TAG in "$version"; do
