@@ -2,6 +2,14 @@
 
 ## Current
 ## Merges
+
+## Commits
+
+
+
+## 0.0.2 - (2024-10-07)
+## Merges
+*  Merge pull request #81 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/e097d1bd66ca21713979b2f2527a4bcfb08de798)
 *  Merge pull request #80 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/af3c686da83d752ea384f88ab209546fed081b8a)
 *  Merge pull request #79 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/2131b1bfaa1b1e095ad4ebbd20c27326f2760de3)
 *  Merge pull request #78 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/8d3d81ecae6cb90429253acc43ed9e8f074afc1e)
@@ -31,6 +39,8 @@
 *  fix: script changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/7fb9455f13318e8360d794921c0423fce2e562b1)
 *  docs(CHANGELOG): update release notes [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/18b04f0180ebb517943fe92c64eb3cd9f3bcfb28)
 *  feat: organizando script changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/aa62c2c294204c453b25952de52390bc15708277)
+*  docs(CHANGELOG): update release notes [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/df08ca741b8559cca99844ce7c79ac5292d3835a)
+*  feat: testando criacao de tags [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/09ba18e23eaddae1d6b1a0c982659d78eb5c3066)
 
 
 
@@ -193,8 +203,9 @@
 *  feat: permissionando a pipeline [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/b90d6905e4974e2d74c392fca3211e901f49ba83)
 ## 📝 Metadata
 ```
-This version -------- 0.0.1
+This version -------- 0.0.2
+0.0.1
 0.0.0
-Previous version ---- 0.0.0
-Total commits ------- 69
+Previous version ---- 0.0.1
+Total commits ------- 100
 ```
