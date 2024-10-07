@@ -8,12 +8,12 @@ for THIS_TAG in "$version"; do
 
     if [ $(git tag -l "$THIS_TAG") ]; then
         echo "Tag $THIS_TAG já existe. Adicionando alterações no CHANGELOG.md ..."
-        changelog
+        changelog > CHANGELOG.md
         commitChangelog
     else
         echo "Tag $THIS_TAG não existe. Criando tag e adicionando notas de alterações no CHANGELOG.md ..."
         createTag
-        changelog
+        changelog > CHANGELOG.md
         commitChangelog
     fi
 
@@ -52,7 +52,7 @@ echo
 echo "## Commits"
 GIT_PAGER=cat git log ${FIRST} --pretty=format:'*  %s [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/%H)' --reverse | grep -v Merge
 
-commitChangelog
+
 metadata
 
 }
