@@ -1,10 +1,20 @@
 #!/bin/bash
 
-version=$(cat version.json | grep version | grep -Eo "[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+")
+# Get the tag name from user input
+tag_name=$(cat version.json | grep version | grep -Eo "[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+")
 
-if [ $(git tag -l "$version") ]; then
-    echo "Tag $version já existe. Adicionando alterações no CHANGELOG.md ..."
-else
-    echo "Tag $version não existe. Criando tag e adicionando notas de alterações no CHANGELOG.md ..."
+# Verify that the tag exists
+tag_exists=$(git tag -l "$tag_name")
+
+if [ -z "$tag_exists" ]; then
+  echo "Tag $tag_name does not exist!"
+  exit 1
 fi
 
+# Force update the tag
+git tag -f "$tag_name"
+
+# Push the tag to the remote repository
+git push -f origin "$tag_name"
+
+echo "Tag $tag_name has been force updated!"
