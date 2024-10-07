@@ -7,6 +7,7 @@ version=$(cat version.json | grep version | grep -Eo "[[:digit:]]+\.[[:digit:]]+
 
 for THIS_TAG in "$version"; do
 
+    git pull origin main
     git tag -l "$THIS_TAG" | tac
 
     if [ $(git tag -l "$THIS_TAG") ]; then
