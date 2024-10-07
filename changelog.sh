@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Get the tag name from user input
-tag_name=$(cat version.json | grep version | grep -Eo "[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+")
+# tag_name=$(cat version.json | grep version | grep -Eo "[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+")
+tag_name=0.0.1
 
 # Verify that the tag exists
 tag_exists=$(git tag -l "$tag_name")
