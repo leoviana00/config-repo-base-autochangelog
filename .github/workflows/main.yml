@@ -16,26 +16,10 @@ jobs:
       with:
         fetch-depth: 0
 
-    # - name: Check for Tag
-    #   run: |
-    #     TAG="0.0.1"
-    #     if [ $(git tag -l "${TAG}") ]; then
-    #       echo "Tag ${TAG} exists"
-    #     else
-    #       echo "Tag ${TAG} does not exist"
-    #     fi
-
-    
-    # - name: Clone repository
-    #   run: |
-    #     git clone https://github.com/leoviana00/config-repo-base-autochangelog.git
-    #     git config user.name "CI Pipeline"
-    #     git config user.email "cipipeline@example.com" 
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Run script file
+    - name: Run changelog script file
       run: |
+        git config user.name "CI Pipeline"
+        git config user.email "cipipeline@example.com" 
         chmod +x changelog.sh
         ./changelog.sh
       env:
