@@ -2,8 +2,10 @@
 
 ## Current
 ## Merges
-
+*  Merge pull request #83 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/53d80c1c6a480dc9f36764f19fc44ec438fa2e14)
 ## Commits
+*  docs(CHANGELOG): update release notes [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/d708ce648621e57a009f2e95e9ddbde716916189)
+*  feat: test variavel script [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/7f62235e2c8682d89786ab723a222baf5fb2780c)
 
 
 
