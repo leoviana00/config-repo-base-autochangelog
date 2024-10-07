@@ -14,13 +14,13 @@ jobs:
 
     - uses: actions/checkout@v2
     
-    - name: Clone repository
-      run: |
-        git clone https://github.com/leoviana00/config-repo-base-autochangelog.git
-        git config user.name "CI Pipeline"
-        git config user.email "cipipeline@example.com" 
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    # - name: Clone repository
+    #   run: |
+    #     git clone https://github.com/leoviana00/config-repo-base-autochangelog.git
+    #     git config user.name "CI Pipeline"
+    #     git config user.email "cipipeline@example.com" 
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Run script file
       run: |
