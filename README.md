@@ -87,6 +87,36 @@ O versionamento semântico garante organização e ajuda a comunicar atualizaç�
   <img alt="VERSIONAMENTO" src="data/version.png">
 </p>
 
+- MAJOR (Maior)
+
+```
+O primeiro dígito informa a versão de compatibilidade e é alterado caso o software ou biblioteca sofra mudanças que a torne incompatível com outras versões. São as chamadas breaking changes, atualizações que possuem o potencial de “quebrar” códigos que utilizam versões anteriores.
+
+Exemplo: você está usando uma função de uma biblioteca X, porém foi lançada uma nova versão da biblioteca onde essa função tem outro nome ou outra assinatura. Se tentarmos executar o código usando a versão nova da biblioteca, a função não executará corretamente.
+
+Versão 1.0.0 → Agora é 2.0.0
+```
+
+- MINOR (Menor)
+
+```
+O segundo dígito informa a versão da funcionalidade, onde uma nova função ou melhoria substancial é adicionada e não há problemas de incompatibilidade com outras versões.
+
+Exemplo: A biblioteca que você costuma usar tem agora uma nova funcionalidade e é compatível com outras versões, necessita apenas de atualização local.
+
+Versão 2.0.0 → Agora é 2.1.0
+```
+
+- PATCH (Correção)
+
+```
+O terceiro dígito informa a versão da correção de bugs, melhorias de desempenho ou alterações similares que não alteram as funcionalidades atuais e nem introduzem novas.
+
+Exemplo: A biblioteca que você costuma usar tem um bug que gera uma vulnerabilidade no código. Esse bug foi corrigido em uma nova versão.
+
+Versão 2.1.0 → Agora é 2.1.1
+```
+
 ## Changelog
 
 Documentar alterações realizadas, seja atualizações, manutenções, correções de bugs, novas funcionalidades e etc. O intuito é criar um documento para registrar pequenas notas relacionadas a esssas mudanças, organizando e agrupando por tags. 
