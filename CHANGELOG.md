@@ -7,6 +7,15 @@
 
 
 
+## 1.0.0 - (2024-10-07)
+## Merges
+*  Merge pull request #82 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/da1abd9fa00b0b01cb008a451536517f4a963542)
+## Commits
+*  docs(CHANGELOG): update release notes [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/47d634d50b1b267d98397f698ab3ec719b90b878)
+*  feat: finalizando project base changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/7bda8ca148d3609b1393766ce28e978227538dfe)
+
+
+
 ## 0.0.2 - (2024-10-07)
 ## Merges
 *  Merge pull request #81 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/e097d1bd66ca21713979b2f2527a4bcfb08de798)
@@ -203,9 +212,10 @@
 *  feat: permissionando a pipeline [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/b90d6905e4974e2d74c392fca3211e901f49ba83)
 ## 📝 Metadata
 ```
-This version -------- 0.0.2
+This version -------- 1.0.0
+0.0.2
 0.0.1
 0.0.0
-Previous version ---- 0.0.1
-Total commits ------- 100
+Previous version ---- 0.0.2
+Total commits ------- 103
 ```
