@@ -20,8 +20,8 @@ jobs:
       run: |
         git config user.name "CI Pipeline"
         git config user.email "cipipeline@example.com" 
-        chmod +x changelog.sh
-        ./changelog.sh
+        chmod +x ./.github/scripts/changelog.sh
+        ./.github/scripts/changelog.sh
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
