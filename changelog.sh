@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # FUNÇÃO PARA CHECAR SE TAG JA EXISTE OU NÃO
-function checkForTag(){
+function main(){
 
 version=$(cat version.json | grep version | grep -Eo "[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+")
 for THIS_TAG in "$version"; do
@@ -16,7 +16,6 @@ for THIS_TAG in "$version"; do
         changelog > CHANGELOG.md
         commitChangelog
     fi
-
 done
 
 }
@@ -87,4 +86,4 @@ git push  --tags https://github.com/leoviana00/config-repo-base-autochangelog.gi
 }
 
 # CHAMANDO FUNÇÃO PRINCIPAL
-checkForTag
+main
