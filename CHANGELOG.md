@@ -2,6 +2,8 @@
 
 ## Current
 ## Merges
+*  Merge pull request #79 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/2131b1bfaa1b1e095ad4ebbd20c27326f2760de3)
+*  Merge pull request #78 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/8d3d81ecae6cb90429253acc43ed9e8f074afc1e)
 *  Merge pull request #77 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/9ba3a7ad8049e15452db7ba59d33c56bccfc1a85)
 *  Merge pull request #76 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/4bcb7049c7cc17a692ebb812eb25f2573e5547fd)
 *  Merge pull request #75 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/cfc7036503cb3e39f9c1d91513d2bd08c1bb6b38)
@@ -22,6 +24,10 @@
 *  feat: ajust script [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/f0e10128a2fadee4db31093e70f838e924f6654c)
 *  feat: ajustand step [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/0cfbbb4ca95ab28e90204b54f5a10f0d13211d9d)
 *  feat: add account default identity [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/6090ac9056e17a803e3c85f4274051ffc9d6baa1)
+*  docs(CHANGELOG): update release notes [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/3a2793c78788e87c22b59823bc1da0b9540fc099)
+*  feat: organizacao do script [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/8d98a94c4105f30cc7fc18899ef05bc5b0119878)
+*  feat: organizando os steps [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/1a02e7332a5597afc04f56fcb73d166525ff5f99)
+*  fix: script changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/7fb9455f13318e8360d794921c0423fce2e562b1)
 
 
 
