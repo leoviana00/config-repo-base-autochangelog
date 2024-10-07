@@ -98,3 +98,14 @@ Buscando não burocratizar e nem gerar tanto trabalho pra realização do proces
 <p align="center">
   <img alt="CHANGELOG" src="data/changelog.png">
 </p>
+
+## Referências
+
+- [Action Checkout](https://github.com/actions/checkout)
+- [Checando se Tag existe](https://stackoverflow.com/questions/17790123/shell-check-if-a-git-tag-exists-in-an-if-else-statement)
+- [Runner Images](https://github.com/actions/runner-images)
+- [Auto Tag](https://stackoverflow.com/questions/69507324/gitlab-ci-cd-auto-tagging-release)
+- [Pegar todas as mudanças no GIT](https://stackoverflow.com/questions/7387612/git-changelog-how-to-get-all-changes-up-to-a-specific-tag)
+- [Git log entre tags](https://stackoverflow.com/questions/8136178/git-log-between-tags)
+- [Github Actions Run Script](https://stackoverflow.com/questions/65609835/run-a-bash-script-located-in-public-folder-github-actions)
+
