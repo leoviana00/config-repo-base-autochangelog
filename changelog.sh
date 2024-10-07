@@ -1,9 +1,9 @@
 #!/bin/bash
 
-git clone https://github.com/leoviana00/config-repo-base-autochangelog.git
+# git clone https://github.com/leoviana00/config-repo-base-autochangelog.git
 git config --global user.email "CI Pipeline"
 git config --global user.name "cipipeline@example.com" 
-cd config-repo-base-autochangelog
+# cd config-repo-base-autochangelog
 
 version=$(cat version.json | grep version | grep -Eo "[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+")
 
