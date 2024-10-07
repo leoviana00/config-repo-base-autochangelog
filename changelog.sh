@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "Testando variável $GITHUB_REPOSITORY"
 # FUNÇÃO PARA CHECAR SE TAG JA EXISTE OU NÃO
 function main(){
 
