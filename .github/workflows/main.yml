@@ -27,7 +27,7 @@ jobs:
         GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
         GITHUB_SERVER_URL: ${{ secrets.GITHUB_SERVER_URL }}
 
-    - name: Comment Changelog on Success and Add Label 
+    - name: Comment Changelog on Success 
       if: success()
       run: |
         cat <<EOT > message.txt
@@ -44,9 +44,9 @@ jobs:
         Olá! 🚫 Parece que houve um problema a atualização do changelog 🧐 Aqui estão algumas coisas para verificar:
 
         - Verificar token de acesso.
-        - Checar se não hove nenhuma mudança nas configurações nos útimos dias.
+        - Checar se não hove nenhuma mudança nas configurações das actions ou script responsável por gerar o changelog nos útimos dias.
 
-        Agradecemos sua contribuição e compreensão 👊😉
+        Agradecemos sua compreensão 👊😉
         EOT
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

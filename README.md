@@ -117,6 +117,9 @@ Exemplo: A biblioteca que você costuma usar tem um bug que gera uma vulnerabili
 Versão 2.1.0 → Agora é 2.1.1
 ```
 
+>[!NOTE]
+> Para versionamento do projeto, será realizado o registro no arquivo [version.json](https://github.com/leoviana00/config-repo-base-autochangelog/blob/main/version.json). Esse arquivo é essencial para direcionamento da `tag` a ser criada, portanto, sempre que for querer organizar um bloco de commits por `tags` no changelog, uma versão deve ser incrementada nesse arquivo seguindo a ideia do versionamento semântico citado logo acima. 
+
 ## Changelog
 
 Documentar alterações realizadas, seja atualizações, manutenções, correções de bugs, novas funcionalidades e etc. O intuito é criar um documento para registrar pequenas notas relacionadas a esssas mudanças, organizando e agrupando por tags. 
