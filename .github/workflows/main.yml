@@ -25,6 +25,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+        GITHUB_SERVER_URL: ${{ secrets.GITHUB_SERVER_URL }}
 
     - name: Comment Changelog on Success and Add Label 
       if: success()
