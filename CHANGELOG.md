@@ -2,6 +2,7 @@
 
 ## Current
 ## Merges
+*  Merge pull request #94 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/4897258276cd24d189848e7c8a023ba6f2610d6e)
 *  Merge pull request #93 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/72f20707bafffd1d88e684cc8162fd3808d3e79e)
 *  Merge pull request #92 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/07496e8098ad00973dc08f52bb4d4bd399653e35)
 *  Merge pull request #91 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/a2728b592d7aab4ad92f67fdeaab8b95617e503f)
@@ -36,6 +37,8 @@
 *  docs: update readme - versionamento [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/0059769acf110f41aa9cacc4cbf9e563a26fd0e7)
 *  docs(CHANGELOG): update release notes [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/3025d709793bfabdecd26e3436a519b877c5bf41)
 *  docs: update readme - versionamento semantico [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/3d6bb2d327764c7c22e2c57fa0c15c5bf6127cf4)
+*  docs(CHANGELOG): update release notes [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/bfecb655f918b4f40371eb94cb86774961f6d65d)
+*  docs: codigo de conduta e guia do contribuidor [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/97ee8062ebfb7c81b89ad065d0d4bc33504b1f5c)
 
 
 
