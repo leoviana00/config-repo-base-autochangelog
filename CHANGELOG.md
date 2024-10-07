@@ -2,6 +2,7 @@
 
 ## Current
 ## Merges
+*  Merge pull request #80 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/af3c686da83d752ea384f88ab209546fed081b8a)
 *  Merge pull request #79 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/2131b1bfaa1b1e095ad4ebbd20c27326f2760de3)
 *  Merge pull request #78 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/8d3d81ecae6cb90429253acc43ed9e8f074afc1e)
 *  Merge pull request #77 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/9ba3a7ad8049e15452db7ba59d33c56bccfc1a85)
@@ -28,6 +29,8 @@
 *  feat: organizacao do script [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/8d98a94c4105f30cc7fc18899ef05bc5b0119878)
 *  feat: organizando os steps [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/1a02e7332a5597afc04f56fcb73d166525ff5f99)
 *  fix: script changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/7fb9455f13318e8360d794921c0423fce2e562b1)
+*  docs(CHANGELOG): update release notes [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/18b04f0180ebb517943fe92c64eb3cd9f3bcfb28)
+*  feat: organizando script changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/aa62c2c294204c453b25952de52390bc15708277)
 
 
 
