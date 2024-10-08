@@ -77,8 +77,6 @@ Proposta de template:
 <!-- Caso quera adicionar alguma imagem, coloque representando o antes e depois substituindo "N/A">
 ```
 
-
-
 ## Versionamento Semântico
 
 O versionamento semântico garante organização e ajuda a comunicar atualizações às pessoas usuárias
