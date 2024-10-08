@@ -18,8 +18,8 @@ jobs:
 
     - name: Run changelog script file
       run: |
-        git config user.name "CI Pipeline"
-        git config user.email "cipipeline@example.com" 
+        git config --global user.name "$(git --no-pager log --format=format:'%an' -n 1)"
+        git config --global user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
         chmod +x ./.github/scripts/changelog.sh
         ./.github/scripts/changelog.sh
       env:
