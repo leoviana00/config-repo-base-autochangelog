@@ -2,8 +2,10 @@
 
 ## Current
 ## Merges
-
+*  Merge pull request #96 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/58adec78f16295f464b8861004a6c9ef04f1651e)
 ## Commits
+*  docs(CHANGELOG): update release notes [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/7e07d32a32dc8cf97d8cb56ae6411db98f06dd3e)
+*  feat: add variable config git [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/36d59f0b1227cb7e849c9ec0dbfd6307f64b7c45)
 
 
 
