@@ -31,7 +31,7 @@ git tag --sort=-creatordate | while read TAG ; do
         tag_date=$(git log -1 --pretty=format:'%ad' --date=short ${TAG})
         echo "## 🔖 $NEXT - ($tag_date)"
     else
-        echo "### 🚧 Current"
+        echo "## 🚧 Current"
     fi  
     echo "### 🔀 Merges"
     GIT_PAGER=cat git log ${TAG}...${NEXT} --merges --pretty=format:"*  %s [View]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commits/%H)"
