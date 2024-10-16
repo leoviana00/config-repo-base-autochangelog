@@ -1,7 +1,8 @@
 # 🎁 Release notes
 
-### 🚧 Current
+## 🚧 Current
 ### 🔀 Merges
+*  Merge pull request #99 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/65739a0c6bb8d12ec21d364fc30afbe9581d0061)
 *  Merge pull request #98 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/5011597ee10a6fd3841e0fab36222e51d0f52949)
 *  Merge pull request #97 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/ca72407e20c97ce5355dccc0882723b5243d0a2f)
 *  Merge pull request #96 from leoviana00/feature-teste-action-changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/58adec78f16295f464b8861004a6c9ef04f1651e)
@@ -12,6 +13,8 @@
 *  feat: ajuste pipeline [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/af458a46256bd143c5c4f310b57ce82e634cfd4e)
 *  docs(CHANGELOG): update release notes [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/0385675de7caf026781186e095ab6355946e7550)
 *  refact(🔨code): refatorando script changelog [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/b8147da465bde60df341cbf7926b5ac6db10f76d)
+*  docs(📚 CHANGELOG): update release notes [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/f769c5f488df47868256ac7f053ba43368ba5fb4)
+*  docs(📚 CHANGELOG): update release notes [View](https://github.com/leoviana00/config-repo-base-autochangelog/commits/144e8989e66bf31924b184528262e009089a0fd7)
 
 
 
